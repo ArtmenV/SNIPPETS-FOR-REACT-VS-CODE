@@ -1,0 +1,22 @@
+{
+  "React func component": {
+    "scope": "javascript,typescript",
+    "prefix": "jsrc",
+    "body": [
+      "import * as React from 'react'",
+      "",
+      "export const Component = () => {",
+      "",
+      "  React.useEffect(()=> {",
+      "",
+      "  }, [])",
+      "",
+      "  return (",
+      "    <>",
+      "    </>",
+      "  )",
+      "}"
+    ],
+    "description": "React func component"
+  }
+}

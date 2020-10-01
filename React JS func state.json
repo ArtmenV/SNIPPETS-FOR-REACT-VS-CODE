@@ -1,0 +1,19 @@
+{
+  "React func component": {
+    "scope": "javascript,typescript",
+    "prefix": "jsrc",
+    "body": [
+      "import * as React from 'react'",
+      "",
+      "export const Component = () => {",
+      "  const [${2:state}, set${2:State}] = React.useState();",
+      "",
+      "  return (",
+      "    <>",
+      "    </>",
+      "  )",
+      "}"
+    ],
+    "description": "React func component"
+  }
+}

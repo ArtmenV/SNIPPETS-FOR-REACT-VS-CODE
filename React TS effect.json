@@ -1,0 +1,28 @@
+{
+  "React TS Function Component with State Effect": {
+    "scope": "javascript,typescript",
+    "prefix": "tsfce",
+    "body": [
+      "import * as React from 'react';",
+      "",
+      "interface I${1:App}Props {",
+      "}",
+      "",
+      "export const ${1:App}: React.FC<I${1:App}Props> = () => {",
+      "  const [${2:state}, set${2:State}] = React.useState();",
+      "",
+      "  React.useEffect(()=> {",
+      "",
+      "  }, [])",
+      "",
+      "  return (",
+      "    <>",
+      "      ${3}",
+      "    </>",
+      "  );",
+      "}",
+      ""
+    ],
+    "description": "React TS Function Component useState useEffect"
+  }
+}

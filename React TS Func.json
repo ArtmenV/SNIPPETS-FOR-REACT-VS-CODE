@@ -1,0 +1,23 @@
+{
+	"React TS Function Component": {
+    "scope": "javascript,typescript",
+		"prefix": "tsfc",
+		"body": [
+			"import * as React from 'react';",
+			"",
+			"interface I${1:App}Props {",
+			"}",
+			"",
+			"export const ${1:App}: React.FC<I${1:App}Props> = () => {",
+			"",
+			"  return (",
+			"    <>",
+			"      ${3}",
+			"    </>",
+			"  );",
+			"}",
+			""
+		],
+		"description": "React TS Function Component"
+	}
+}
